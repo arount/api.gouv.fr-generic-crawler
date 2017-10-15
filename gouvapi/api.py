@@ -2,7 +2,6 @@
 
 '''
 data.gouv.fr API client for Python
-(This is not really a client API, but a quick implementation of /dataset endpoint)
 '''
 
 import requests
@@ -44,7 +43,7 @@ class API(object):
 
 class Query(object):
     '''
-    Query aims to send queries to API, handle errors and expose user-friendly
+    Send queries to API, handle errors and expose user-friendly
     methods to navigate through API's endpoints.
 
     Not that Query class handles JSON API **only**, resources (like CSV files)
